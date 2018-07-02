@@ -180,7 +180,7 @@ def main():
             try:
                 player_guess = str(input("\nPlease select a letter between A-Z" + "\n> ")).lower()
             except: # check valid input
-                print("That is not valid input. Please try again.")
+                print("That is not a valid input. Please try again.")
                 continue                
             else: 
                 if not player_guess.isalpha(): # check the input is a letter. Also checks an input has been made.
